@@ -1,0 +1,49 @@
+// src/App.scss
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiTabs-root {
+  background-color: #1976d2; // Material UI primary blue
+  color: white;
+
+  .MuiTab-root {
+    color: white;
+    &.Mui-selected {
+      color: #ffeb3b; // Yellow highlight for selected tab
+      font-weight: 600;
+    }
+  }
+}
+
+iframe {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+  cursor: pointer;
+  user-select: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Responsive container padding */
+@media (min-width: 600px) {
+  .MuiBox-root {
+    padding: 32px !important;
+  }
+}
