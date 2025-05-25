@@ -1,6 +1,5 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchUsers } from '../redux/actions';
 import { Button, Typography, Box, Card, CardContent, Grid } from '@mui/material';
 
 const Tab2ApiButton = ({ onNavigate }) => {
