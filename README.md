@@ -43,9 +43,14 @@ cd react-tabs-multitask-app
 ### 2. NPM install
 npm install
 
-### 1. Start the repo
+### 3. Start the repo
 npm run dev
 
 
+### Hosted the code using GitHub Pages
+https://jainaditi19.github.io/react-tabs-multitask-app/
+
+### Link to code repository
+https://github.com/jainaditi19/react-tabs-multitask-app
 
 
